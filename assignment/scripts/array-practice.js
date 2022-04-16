@@ -38,8 +38,8 @@ console.log('Last animal is: ', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-
-
+let lastAnimal = animalArray[animalArray.length - 1];
+console.log(lastAnimal);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -107,7 +107,7 @@ console.log('My favorite foods are', foodString);
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
-// Reusing - let updatedFavoriteFoods = ['sushi', 'bulgogi', 'steak', 'mochi donuts'];
-// Reusing - let animalArray = ['fish', 'cat', 'bird', 'dog'];
+// Reused - let updatedFavoriteFoods = ['sushi', 'bulgogi', 'steak', 'mochi donuts'];
+// Reused - let animalArray = ['fish', 'cat', 'bird', 'dog'];
 let mergeArray = animalArray.concat(updatedFavoriteFoods);
 console.log(mergeArray);
